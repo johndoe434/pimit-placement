@@ -64,13 +64,13 @@ settings1 : {
         'Activate on Game Phase':'Game Start'        
     },
     two:{
-        'When Triggered Transmit On':'CH 01' 
+        'When Triggered Transmit On':'CH 101' 
     },
     three:{
-        'When Triggered Transmit On':'CH 06' 
+        'When Triggered Transmit On':'CH 106' 
     },
     four:{
-        'When Triggered Transmit On':'CH 07' 
+        'When Triggered Transmit On':'CH 107' 
     }
 },
 
@@ -83,9 +83,9 @@ settings1 : {
         'Zone Depth': '100',
         'Zone Height': '100',
         'Enabled At Game Start': 'NO',
-        'Enable When Receiving From': 'CH 01',
-        'Disable When Receiving From': 'CH 02',
-        'On Player Entering Zone Transmit On': 'CH 02',
+        'Enable When Receiving From': 'CH 101',
+        'Disable When Receiving From': 'CH 102',
+        'On Player Entering Zone Transmit On': 'CH 102',
     },
      two:{
         '*** This mutator must cover the entire playable area ***' :'',
@@ -94,9 +94,9 @@ settings1 : {
         'Zone Depth': '100',
         'Zone Height': '100',
         'Enabled At Game Start': 'NO',
-        'Enable When Receiving From': 'CH 04',
-        'Disable When Receiving From': 'CH 05',
-        'On Player Entering Zone Transmit On': 'CH 05',
+        'Enable When Receiving From': 'CH 104',
+        'Disable When Receiving From': 'CH 105',
+        'On Player Entering Zone Transmit On': 'CH 105',
     },
     three:{
         '*** This mutator must cover the entire playable area, but not island start spawn pads. ***' :'',
@@ -105,39 +105,39 @@ settings1 : {
         'Zone Depth': '100',
         'Zone Height': '100',
         'Enabled At Game Start': 'YES',
-        'On Player Leaving Zone Transmit On': 'CH 03',
+        'On Player Leaving Zone Transmit On': 'CH 6',
     }
 },
 
 //SETTINGS Top 10
  settings3 : {
     one:{
-        'Trigger When Receiving From': 'CH 05',
-        'When Triggered Transmit On': 'CH 07'
+        'Trigger When Receiving From': 'CH 105',
+        'When Triggered Transmit On': 'CH 107'
     },
     two:{
         '*** Transmit on Score == Placement Being Awarded ***' :'',
         'Score Change When Activated': '1',
         'Transmit on Score': '10',
-        'Reset When Receiving From': 'CH 01',
-        'Increment When Receiving From': 'CH 02',
-        'Decrement When Receiving From': 'CH 03',
-        'On Score Output Transmit To': 'CH 08'
+        'Reset When Receiving From': 'CH 101',
+        'Increment When Receiving From': 'CH 102',
+        'Decrement When Receiving From': 'CH 6',
+        'On Score Output Transmit To': 'CH 108'
     },
     three:{
         '*** This trigger enables the Top 10 Points ***' :'',
         'Enabled on Game Start': 'DISABLED',
-        'Enable When Receiving From': 'CH 06',
-        'Trigger When Receiving From': 'CH 08',
-        'When Triggered Transmit On': 'CH 04'
+        'Enable When Receiving From': 'CH 106',
+        'Trigger When Receiving From': 'CH 108',
+        'When Triggered Transmit On': 'CH 104'
     },
     four:{
         '*** The Score to award players when 10 left ***' :'',
         'Score Value': '5',
         'Score Change When Activated': '1',
-        'Activate When Receiving From': 'CH 05',
-        'Enabled When Receiving From': 'CH 08',
-        'Disable When Receiving From': 'CH 07'
+        'Activate When Receiving From': 'CH 105',
+        'Enabled When Receiving From': 'CH 108',
+        'Disable When Receiving From': 'CH 107'
     },
 },
 
@@ -148,25 +148,25 @@ settings1 : {
         '*** Transmit on Score == Placement Being Awarded ***' :'',
         'Score Change When Activated': '1',
         'Transmit on Score': '5',
-        'Reset When Receiving From': 'CH 01',
-        'Increment When Receiving From': 'CH 02',
-        'Decrement When Receiving From': 'CH 03',
-        'On Score Output Transmit To': 'CH 09'
+        'Reset When Receiving From': 'CH 101',
+        'Increment When Receiving From': 'CH 102',
+        'Decrement When Receiving From': 'CH 6',
+        'On Score Output Transmit To': 'CH 109'
     },
     two:{
         '*** This trigger enables the Top 5 Points ***' :'',
         'Enabled on Game Start': 'DISABLED',
-        'Enable When Receiving From': 'CH 06',
-        'Trigger When Receiving From': 'CH 09',
-        'When Triggered Transmit On': 'CH 04'
+        'Enable When Receiving From': 'CH 106',
+        'Trigger When Receiving From': 'CH 109',
+        'When Triggered Transmit On': 'CH 104'
     },
     three:{
         '*** The Score to award players when 5 left ***' :'',
         'Score Value': '3',
         'Score Change When Activated': '1',
-        'Activate When Receiving From': 'CH 05',
-        'Enabled When Receiving From': 'CH 09',
-        'Disable When Receiving From': 'CH 07'
+        'Activate When Receiving From': 'CH 105',
+        'Enabled When Receiving From': 'CH 109',
+        'Disable When Receiving From': 'CH 107'
     }
 },
 
@@ -177,25 +177,25 @@ settings1 : {
         '*** Transmit on Score == Placement Being Awarded ***' :'',
         'Score Change When Activated': '1',
         'Transmit on Score': '3',
-        'Reset When Receiving From': 'CH 01',
-        'Increment When Receiving From': 'CH 02',
-        'Decrement When Receiving From': 'CH 03',
-        'On Score Output Transmit To': 'CH 10'
+        'Reset When Receiving From': 'CH 101',
+        'Increment When Receiving From': 'CH 102',
+        'Decrement When Receiving From': 'CH 6',
+        'On Score Output Transmit To': 'CH 110'
     },
     two:{
         '*** This trigger enables the Top 3 Points ***' :'',
         'Enabled on Game Start': 'DISABLED',
-        'Enable When Receiving From': 'CH 06',
-        'Trigger When Receiving From': 'CH 10',
-        'When Triggered Transmit On': 'CH 04'
+        'Enable When Receiving From': 'CH 106',
+        'Trigger When Receiving From': 'CH 110',
+        'When Triggered Transmit On': 'CH 104'
     },
     three:{
         '*** The Score to award players when 3 left ***' :'',
         'Score Value': '3',
         'Score Change When Activated': '1',
-        'Activate When Receiving From': 'CH 05',
-        'Enabled When Receiving From': 'CH 10',
-        'Disable When Receiving From': 'CH 07'
+        'Activate When Receiving From': 'CH 105',
+        'Enabled When Receiving From': 'CH 110',
+        'Disable When Receiving From': 'CH 107'
     }
 },
 
@@ -206,30 +206,30 @@ settings1 : {
         '*** Transmit on Score == Placement Being Awarded ***' :'',
         'Score Change When Activated': '1',
         'Transmit on Score': '1',
-        'Reset When Receiving From': 'CH 01',
-        'Increment When Receiving From': 'CH 02',
-        'Decrement When Receiving From': 'CH 03',
-        'On Score Output Transmit To': 'CH 11'
+        'Reset When Receiving From': 'CH 101',
+        'Increment When Receiving From': 'CH 102',
+        'Decrement When Receiving From': 'CH 6',
+        'On Score Output Transmit To': 'CH 111'
     },
     two:{
         '*** This trigger enables the Top 1 Points ***' :'',
         'Enabled on Game Start': 'DISABLED',
-        'Enable When Receiving From': 'CH 06',
-        'Trigger When Receiving From': 'CH 11',
-        'When Triggered Transmit On': 'CH 04'
+        'Enable When Receiving From': 'CH 106',
+        'Trigger When Receiving From': 'CH 111',
+        'When Triggered Transmit On': 'CH 104'
     },
     three:{
         '*** The Score to award players when 1 left ***' :'',
         'Score Value': '3',
         'Times Can Trigger':'1',
-        'Activate When Receiving From': 'CH 05',
-        'Enabled When Receiving From': 'CH 11',
-        'Disable When Receiving From': 'CH 07',
-        'On Max Triggers Transmit To': 'CH 12'
+        'Activate When Receiving From': 'CH 105',
+        'Enabled When Receiving From': 'CH 111',
+        'Disable When Receiving From': 'CH 107',
+        'On Max Triggers Transmit To': 'CH 3'
     },
     four:{
         '*** This ends the game and awards victory ***' :'',
-        'End Round When Receiving From': 'CH 12',
+        'End Round When Receiving From': 'CH 3',
     }
 }
 };
