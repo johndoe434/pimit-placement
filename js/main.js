@@ -229,7 +229,7 @@ settings1 : {
         'On Max Triggers Transmit To': 'CH 03'
     },
     four:{
-        '*** This ends the game and awards victory. you can also use a round settings device. ***' :'',
+        '*** This ends the game and awards victory. you can also use a round settings device, which already exists. ***' :'',
         'End Round When Receiving From': 'CH 03',
     }
 }
