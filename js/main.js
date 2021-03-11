@@ -64,7 +64,8 @@ settings1 : {
         'Activate on Game Phase':'Game Start'        
     },
     two:{
-        'When Triggered Transmit On':'CH 101' 
+        '*** Once you place This Trigger Down, Delete the 2 second timer device ***' :'',
+        'When Triggered Transmit On':'CH 08' 
     },
     three:{
         'When Triggered Transmit On':'CH 106' 
@@ -77,15 +78,15 @@ settings1 : {
 //SETTINGS Mutators
  settings2 : {
     one:{
-        '*** This mutator must cover the area where players spawn ***' :'',
+        '*** This mutator exists. It counts the players ***' :'',
         'Allow Weapon Fire': 'YES',
         'Zone Width': '100',
         'Zone Depth': '100',
         'Zone Height': '100',
         'Enabled At Game Start': 'NO',
-        'Enable When Receiving From': 'CH 101',
-        'Disable When Receiving From': 'CH 102',
-        'On Player Entering Zone Transmit On': 'CH 102',
+        'Enable When Receiving From': 'CH 08',
+        'Disable When Receiving From': 'CH 02',
+        'On Player Entering Zone Transmit On': 'CH 05',
     },
      two:{
         '*** This mutator must cover the entire playable area ***' :'',
@@ -99,13 +100,13 @@ settings1 : {
         'On Player Entering Zone Transmit On': 'CH 105',
     },
     three:{
-        '*** This mutator must cover the entire playable area, but not island start spawn pads. ***' :'',
+        '*** This mutator exists, it counts the deaths ***' :'',
         'Allow Weapon Fire': 'YES',
         'Zone Width': '100',
         'Zone Depth': '100',
         'Zone Height': '100',
         'Enabled At Game Start': 'YES',
-        'On Player Leaving Zone Transmit On': 'CH 6',
+        'On Player Leaving Zone Transmit On': 'CH 06',
     }
 },
 
@@ -119,9 +120,9 @@ settings1 : {
         '*** Transmit on Score == Placement Being Awarded ***' :'',
         'Score Change When Activated': '1',
         'Transmit on Score': '10',
-        'Reset When Receiving From': 'CH 101',
-        'Increment When Receiving From': 'CH 102',
-        'Decrement When Receiving From': 'CH 6',
+        'Reset When Receiving From': 'CH 08',
+        'Increment When Receiving From': 'CH 05',
+        'Decrement When Receiving From': 'CH 06',
         'On Score Output Transmit To': 'CH 108'
     },
     three:{
@@ -148,9 +149,9 @@ settings1 : {
         '*** Transmit on Score == Placement Being Awarded ***' :'',
         'Score Change When Activated': '1',
         'Transmit on Score': '5',
-        'Reset When Receiving From': 'CH 101',
-        'Increment When Receiving From': 'CH 102',
-        'Decrement When Receiving From': 'CH 6',
+        'Reset When Receiving From': 'CH 08',
+        'Increment When Receiving From': 'CH 05',
+        'Decrement When Receiving From': 'CH 06',
         'On Score Output Transmit To': 'CH 109'
     },
     two:{
@@ -177,9 +178,9 @@ settings1 : {
         '*** Transmit on Score == Placement Being Awarded ***' :'',
         'Score Change When Activated': '1',
         'Transmit on Score': '3',
-        'Reset When Receiving From': 'CH 101',
-        'Increment When Receiving From': 'CH 102',
-        'Decrement When Receiving From': 'CH 6',
+        'Reset When Receiving From': 'CH 08',
+        'Increment When Receiving From': 'CH 05',
+        'Decrement When Receiving From': 'CH 06',
         'On Score Output Transmit To': 'CH 110'
     },
     two:{
@@ -206,9 +207,9 @@ settings1 : {
         '*** Transmit on Score == Placement Being Awarded ***' :'',
         'Score Change When Activated': '1',
         'Transmit on Score': '1',
-        'Reset When Receiving From': 'CH 101',
-        'Increment When Receiving From': 'CH 102',
-        'Decrement When Receiving From': 'CH 6',
+        'Reset When Receiving From': 'CH 08',
+        'Increment When Receiving From': 'CH 05',
+        'Decrement When Receiving From': 'CH 06',
         'On Score Output Transmit To': 'CH 111'
     },
     two:{
@@ -225,11 +226,11 @@ settings1 : {
         'Activate When Receiving From': 'CH 105',
         'Enabled When Receiving From': 'CH 111',
         'Disable When Receiving From': 'CH 107',
-        'On Max Triggers Transmit To': 'CH 3'
+        'On Max Triggers Transmit To': 'CH 03'
     },
     four:{
-        '*** This ends the game and awards victory ***' :'',
-        'End Round When Receiving From': 'CH 3',
+        '*** This ends the game and awards victory. you can also use a round settings device. ***' :'',
+        'End Round When Receiving From': 'CH 03',
     }
 }
 };
